@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://clauderemote.vercel.app/sitemap.xml

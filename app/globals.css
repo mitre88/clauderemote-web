@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-orange: #FF8C00;
+  --color-purple: #9B59B6;
+  --color-blue: #87CEEB;
+  --color-bg: #1A1208;
+  --color-card: #2A1F10;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #1A1208;
+  color: #F5E6D3;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: rgba(255, 140, 0, 0.3);
+  color: #FFFFFF;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1A1208;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FF8C00;
+  border-radius: 3px;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #FF8C00, #FFB347, #FF6B00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text-purple {
+  background: linear-gradient(135deg, #9B59B6, #C39BD3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.card-glass {
+  background: linear-gradient(145deg, rgba(58, 46, 30, 0.8) 0%, rgba(42, 31, 16, 0.9) 100%);
+  border: 1px solid rgba(255, 140, 0, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.card-glass:hover {
+  border-color: rgba(255, 140, 0, 0.4);
+  box-shadow: 0 8px 40px rgba(255, 140, 0, 0.15);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #FF8C00 0%, #FF6B00 50%, #E05000 100%);
+  color: white;
+  font-weight: 700;
+  padding: 14px 32px;
+  border-radius: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(255, 140, 0, 0.4);
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 40px rgba(255, 140, 0, 0.6);
+}
+
+.btn-secondary {
+  background: rgba(42, 31, 16, 0.8);
+  color: #F5E6D3;
+  font-weight: 600;
+  padding: 14px 32px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 140, 0, 0.3);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-secondary:hover {
+  border-color: rgba(255, 140, 0, 0.6);
+  background: rgba(58, 46, 30, 0.9);
+  transform: translateY(-2px);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
