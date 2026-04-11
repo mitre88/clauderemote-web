@@ -20,9 +20,9 @@ const structuredData = {
 };
 
 export const metadata: Metadata = {
-  title: "ClaudeRemote — Control Claude Code from Your iPhone",
-  description: "Remotely control Claude Code sessions on your MacBook from your iPhone. View sessions, send prompts, and manage AI workflows from anywhere — no cloud required.",
-  keywords: ["Claude Code", "remote control", "iOS app", "developer tools", "AI assistant", "iPhone", "MacBook", "Bonjour", "SwiftUI"],
+  title: "ClaudeRemote — Claude Code from your iPhone, any model, any effort",
+  description: "Run Claude Code sessions from your iPhone. Pick the model (Opus, Sonnet, Haiku), dial reasoning effort from Standard to Ultrathink, send prompts, and monitor workflows from anywhere — no cloud required.",
+  keywords: ["Claude Code", "Claude Opus", "Claude Sonnet", "Claude Haiku", "remote control", "iOS app", "developer tools", "AI assistant", "iPhone", "MacBook", "Bonjour", "SwiftUI", "ultrathink"],
   authors: [{ name: "Dr. Alex Mitre" }],
   creator: "Dr. Alex Mitre",
   openGraph: {

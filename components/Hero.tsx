@@ -67,7 +67,9 @@ export default function Hero() {
             }}
           >
             <span className="w-2 h-2 rounded-full bg-brand-orange animate-pulse" />
-            <span className="text-brand-orange text-sm font-semibold tracking-wide">iOS 18+ • Free & Open Source</span>
+            <span className="text-brand-orange text-sm font-semibold tracking-wide">
+              v1.0 • In App Review • iOS 18+
+            </span>
           </div>
 
           <h1
@@ -89,8 +91,8 @@ export default function Hero() {
             className="fade-in-element opacity-0 translate-y-8 transition-all duration-700 text-lg text-text-muted max-w-xl lg:mx-0 mx-auto mb-10 leading-relaxed"
             style={{ transitionDelay: "300ms" }}
           >
-            Send prompts, monitor sessions, manage workflows — all from your iPhone,
-            even miles away from your Mac.
+            Pick your model. Dial your reasoning. Send prompts, monitor sessions, and
+            run Claude Code from your iPhone — even miles from your Mac.
           </p>
 
           <div
@@ -130,8 +132,9 @@ export default function Hero() {
             style={{ transitionDelay: "500ms" }}
           >
             {[
+              { value: "4", label: "Claude models" },
+              { value: "4", label: "Reasoning levels" },
               { value: "5", label: "Languages" },
-              { value: "0ms", label: "Config needed" },
               { value: "100%", label: "Local & Private" },
             ].map((stat) => (
               <div key={stat.label} className="text-center lg:text-left">

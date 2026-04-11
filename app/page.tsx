@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
+import SmartAssistant from "@/components/SmartAssistant";
 import HowItWorks from "@/components/HowItWorks";
 import AppPreview from "@/components/AppPreview";
 import MeetRemo from "@/components/MeetRemo";
@@ -12,6 +13,7 @@ export default function Home() {
     <main className="min-h-screen bg-bg-dark overflow-x-hidden">
       <Hero />
       <Features />
+      <SmartAssistant />
       <HowItWorks />
       <AppPreview />
       <MeetRemo />

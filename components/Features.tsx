@@ -4,39 +4,39 @@ import { useEffect, useRef } from "react";
 
 const features = [
   {
-    icon: "🎮",
-    title: "Remote Sessions",
-    description: "View and control all Claude Code sessions running on your Mac. See what's running, what's waiting, and what just finished — at a glance.",
+    icon: "🧠",
+    title: "Pick Your Brain",
+    description: "Choose the Claude model per session — Opus for hard refactors, Sonnet for daily work, Haiku for instant fixes. Different projects, different brains.",
     color: "#FF8C00",
   },
   {
-    icon: "📡",
-    title: "Auto-Discovery",
-    description: "Bonjour finds your Mac automatically. Zero configuration required. Open the app and your Mac appears — it's that simple.",
+    icon: "🔥",
+    title: "Dial Reasoning Effort",
+    description: "Toggle between Standard, Think, Think hard, and Ultrathink. Pick how much time Claude spends planning before it types a line of code.",
     color: "#9B59B6",
   },
   {
     icon: "💬",
-    title: "Live Chat UI",
-    description: "Send prompts and see responses in a beautiful card-based chat interface. Full conversation history, real-time streaming updates.",
+    title: "Wide Chat Bubbles",
+    description: "Rewritten chat UI with edge-to-edge bubbles, code blocks, typing indicators, and a keyboard bar that finally dismisses when you want it to.",
     color: "#87CEEB",
+  },
+  {
+    icon: "📡",
+    title: "Auto-Discovery",
+    description: "Bonjour finds your Mac on the same Wi-Fi automatically. Zero configuration. Or drop in an IP to reach your Mac from anywhere.",
+    color: "#FF8C00",
   },
   {
     icon: "🌍",
     title: "5 Languages",
-    description: "English, Español, Français, 中文, Português. ClaudeRemote speaks your language so you can focus on building.",
-    color: "#FF8C00",
+    description: "English, Español, Français, 中文, Português — switch live from settings. ClaudeRemote speaks your language so you can focus on building.",
+    color: "#4CAF50",
   },
   {
     icon: "🔒",
     title: "Local & Secure",
-    description: "Everything stays on your local network. No cloud, no third parties, no telemetry. Your code stays yours.",
-    color: "#4CAF50",
-  },
-  {
-    icon: "⚡",
-    title: "Instant Sync",
-    description: "Real-time session status with smart polling. Know the moment a task completes, even when your phone is in your pocket.",
+    description: "Everything runs on your own relay server. No cloud, no third parties, no telemetry. Your code and your prompts stay yours.",
     color: "#FFFF00",
   },
 ];
